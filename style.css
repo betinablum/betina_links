@@ -6,7 +6,7 @@
 
 :root{
   --text-color: white;
-  --bg-url: url(./assets/green-bg-light-mobile.png);
+  --bg-url: url(./assets/dark-green-bg.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255,255,  0.1);
   --surface-color-hover: rgba(255, 255, 255,  0.5);
@@ -37,7 +37,7 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 32px auto 32px;
+  margin: 56px auto 32px;
   padding: 0 24px;
 }
 
@@ -50,6 +50,7 @@ body * {
 
 #profile img {
   width: 124px;
+  border: 20px white;
 }
 
 #profile p{
@@ -160,16 +161,16 @@ footer{
   font-size: 14px;
 }
 
-/*media queries*/
+/* media queries
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/green-bg-light-mobile.png);
+    --bg-url: url(./assets/dark-green-bg.png);
   }
 
   .light {
     --bg-url: url(./assets/green-bg-light-mobile.png);
   }
-}
+} */
 
 /*animation*/
 @keyframes slide-in {
